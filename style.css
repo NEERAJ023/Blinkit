@@ -209,6 +209,9 @@ footer ul li{
         flex-direction: column;
       }
       .footer  .second .second-1{
-        gap:5px;
+        gap:12px;
+      }
+      footer .first .first-1{
+        gap:12px;
       }
 }
