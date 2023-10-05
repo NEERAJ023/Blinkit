@@ -190,3 +190,25 @@ footer ul li{
     list-style: none;
     margin-top: 10px;
 }
+@media screen and (max-width:430px){
+      header .container{
+        
+        flex-direction: column;
+        gap:10px;
+        justify-content: center;
+        width:80%;
+        
+      }
+      header .container .search{
+        width:80%;
+      }
+      .catagries{
+        grid-template-columns: repeat(3,auto);
+      }
+      .footer{
+        flex-direction: column;
+      }
+      .footer  .second .second-1{
+        gap:5px;
+      }
+}
