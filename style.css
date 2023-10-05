@@ -211,7 +211,15 @@ footer ul li{
       .footer  .second .second-1{
         gap:12px;
       }
-      footer .first .first-1{
-        gap:12px;
+      .footer .first .first-1{
+        justify-content: space-between;
+      }
+      .banner img{
+        width:100px;
+        height: auto;
+      }
+      .items .cards .card{
+        width:100px;
+        height: auto;
       }
 }
